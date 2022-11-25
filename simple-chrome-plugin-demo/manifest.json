@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome插件-demo学习",
+  "version": "1.0",
+  "description": "尝试使用Chrome插件来进行接口消息传递",
+  "author": "shadow",
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "unlimitedStorage",
+    "storage",
+    "*://*/*"
+  ]
+}
